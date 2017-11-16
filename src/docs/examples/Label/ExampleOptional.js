@@ -1,5 +1,5 @@
 import React from 'react';
-import Label from 'erik/Label';
+import Label from '../../../components/Label/Label';
 
 /** Optional Label */
 
