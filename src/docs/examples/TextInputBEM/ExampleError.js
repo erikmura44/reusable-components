@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInputBEM from '../../../components/TextInputBEM/TextInputBEM';
+import TextInputBEM from '../../../components/TextInputBEM/index';
 
 /** Required TextBox with error */
 
