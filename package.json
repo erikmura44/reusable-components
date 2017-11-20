@@ -1,10 +1,15 @@
 {
-  "name": "reusable-components",
+  "name": "ps-react-build-template",
   "version": "1.0.0",
   "main": "./lib/index.js",
   "private": true,
   "engines": {
     "node": ">=4.0.0"
+  },
+  "author": {
+    "name": "Cory House",
+    "email": "cory@reactjsconsulting.com",
+    "url": "http://reactjsconsulting.com/"
   },
   "files": [
     "lib"
