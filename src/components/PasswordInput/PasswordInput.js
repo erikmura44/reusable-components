@@ -38,8 +38,10 @@ class PasswordInput extends React.Component {
         {...props}>
         {
           showVisibilityToggle &&
-          // eslint-disable-next-line
-          <a href="#" onClick={this.toggleShowPassword} style={{ marginLeft: 5 }}>
+          <a
+            href="#"
+            onClick={this.toggleShowPassword}
+            style={{ marginLeft: 5 }}>
             <EyeIcon />
           </a>
         }
