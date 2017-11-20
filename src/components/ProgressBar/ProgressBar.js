@@ -15,7 +15,7 @@ class ProgressBar extends React.Component {
         const {percent, width, height} = this.props;
         return (
             <div style={{border: 'solid 1px lightgray', width: width}}>
-                <div style = {{
+                <div style={{
                     width: this.getWidthAsPercentOfTotalWidth(),
                     height,
                     backgroundColor: this.getColor(percent)
@@ -25,7 +25,7 @@ class ProgressBar extends React.Component {
     }
 }
 
-ProgressBar.propTypes = { 
+ProgressBar.propTypes = {
     /** Percent of progress completed */
     percent: PropTypes.number.isRequired,
 
